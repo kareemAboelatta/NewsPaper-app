@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Newspaper</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+    
+    <string-array name="countries">
+        <item>Egypt</item>
+        <item>United States</item>
+        <item>Germany</item>
+        <item>United Kingdom</item>
+        <item>Serbia</item>
+        <item>Saudi Arabia</item>
+    </string-array>
+    
+</resources>

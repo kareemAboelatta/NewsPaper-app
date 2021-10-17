@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/navigation_drawer"
+    app:appbarTitleTextSize="16sp"
+    app:primaryMenuItemTextSize="12sp"
+    app:secondaryMenuItemTextSize="11sp"
+    app:appbarColor="@color/colorPrimary"
+    app:layout_constraintCircleRadius="@dimen/cardview_compat_inset_shadow"
+    tools:context=".ui.MainActivity">
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_layout"
+        />
+
+</com.shrikanthravi.customnavigationdrawer2.widget.SNavigationDrawer>

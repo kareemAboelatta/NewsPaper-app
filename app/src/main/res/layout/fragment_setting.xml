@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:layout_margin="2dp"
+    tools:context=".ui.fragments.SettingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        >
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            android:layout_weight="1"
+        android:text="Current country: "/>
+
+        <TextView
+            android:id="@+id/currentCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="Egypt"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:layout_margin="10dp"
+        android:text="Change country:"/>
+    <Spinner
+        android:id="@+id/spin_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/countries"
+        android:layout_gravity="end"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:backgroundTint="@color/colorPrimary"
+        android:layout_margin="10dp"
+        android:layout_gravity="end"/>
+
+</LinearLayout>
