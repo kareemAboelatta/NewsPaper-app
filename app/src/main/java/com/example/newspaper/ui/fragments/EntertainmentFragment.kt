@@ -30,17 +30,7 @@ class EntertainmentFragment : Fragment(R.layout.fragment_entertainment) {
 
         viewModel.getEntertainmentNews()
 
-/*
-        newsAdapter.setOnItemClickListener {
-            val bundle = Bundle().apply {
-                putSerializable("article", it)
-            }
-            findNavController().navigate(
-                R.id.action_breakingNewsFragment_to_articleFragment,
-                bundle
-            )
-        }
-*/
+        //yes
 
 
         viewModel.breakingNews.observe(viewLifecycleOwner, Observer { response ->
